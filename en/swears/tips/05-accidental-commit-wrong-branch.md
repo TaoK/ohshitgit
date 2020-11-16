@@ -25,5 +25,5 @@ git checkout name-of-the-correct-branch
 git cherry-pick master
 # delete it from master
 git checkout master
-git reset HEAD~ --hard
+git reset HEAD~ --merge
 ```
